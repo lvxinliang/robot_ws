@@ -1,0 +1,12 @@
+[submodule "src/robot_bringup"]
+	path = src/robot_bringup
+	url = git@github.com:lvxinliang/robot_bringup.git
+[submodule "src/robot_description"]
+	path = src/robot_description
+	url = git@github.com:lvxinliang/robot_description.git
+[submodule "src/robot_navigation2"]
+	path = src/robot_navigation2
+	url = git@github.com:lvxinliang/src/robot_navigation2.git
+[submodule "src/ydlidar_ros2_driver"]
+	path = src/ydlidar_ros2_driver
+	url = git@github.com:lvxinliang/src/ydlidar_ros2_driver.git
