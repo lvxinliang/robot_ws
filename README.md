@@ -26,9 +26,17 @@ ros2 launch slam_toolbox online_async_launch.py
 
 - 保存地图
 ```
-ros2 run nav2_map_server map_saver_cli -t map -f fishbot_map
+ros2 run nav2_map_server map_saver_cli -t map -f robot_map
 ```
 - 导航
+```
+ros2 launch robot_navigation2 navigation2.launch.py
+```
+- 运行按键遥控:
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+- 启动导航:
 ```
 ros2 launch robot_navigation2 navigation2.launch.py
 ```
